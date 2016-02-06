@@ -1,0 +1,954 @@
+/*
+
+    1. TYPOGRAPHY
+        1.1 HEADLINES
+        1.2 LINKS
+        1.3 PARAGRAPH
+    2. ALIGN AND SPACES
+        2.1 ALIGN
+        2.2 SPACES
+    3. BUTTONS
+    4. FORM
+    5. ICONS
+        5.1 ICONS
+        5.2 CIRCLE ICONS
+        5.3 FLOAT ICONS
+    6. SKILLS
+    7. ACCORDION AND TOGGLE
+    8. TABS
+        8.1 TAB NAVI
+        8.2 TAB NAVI HORIZONTAL
+        8.3 TAB CONTENT
+    9. ALERT BOX
+    10. COMMENT CAROUSEL
+    11. CLIENT CAROUSEL
+    12. COUNTER
+    13. GOOGLE MAP
+    14. TIMELINE
+        14.1 WRAPPER / GRID
+        14.2 INNER
+        14.3
+        14.4
+
+
+
+/* --------------------------------------------------------------------- */
+/* 1. TYPOGRAPHY
+/* --------------------------------------------------------------------- */
+
+/* ==== 1.1 HEADLINES ==== */
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+
+h1 {
+    font-size: 3.2em;
+    margin-bottom: 30px;
+}
+h2 {
+    font-size: 1.7em;
+    margin-bottom: 25px;
+}
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+h5 {
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+h6 {
+    font-size: 0.8em;
+}
+
+
+h1.underline:after,
+h2.underline:after,
+h3.underline:after,
+h4.underline:after,
+h5.underline:after,
+h6.underline:after {
+    display: block;
+    content: '';
+    width: 40px;
+    height: 3px;
+    margin: 10px 0 40px 0;
+    background: #70a8da;
+}
+
+.center h1.underline:after,
+.center h2.underline:after,
+.center h3.underline:after,
+.center h4.underline:after,
+.center h5.underline:after,
+.center h6.underline:after {
+    margin: 5px auto 25px auto;
+}
+
+
+
+/* ==== 1.2 LINKS ==== */
+
+a {
+    cursor: pointer;
+    color: #70a8da;
+    text-decoration: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition:    all 0.3s;
+    -o-transition:      all 0.3s;
+    transition:         all 0.3s;
+}
+
+
+
+/* ==== 1.3 PARAGRAPH ==== */
+
+p {
+    margin-bottom: 30px;
+    font-size: 0.8em;
+}
+
+p.undertitle {
+    max-width: 700px;
+    margin: 0 auto 60px auto;
+}
+
+
+
+
+/* --------------------------------------------------------------------- */
+/* 2. ALIGN AND SPACES
+/* --------------------------------------------------------------------- */
+
+/* ==== 2.1 ALIGN ==== */
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+
+
+/* ==== 2.2 SPACES ==== */
+
+.space {
+    width: 100%;
+    height: 80px;
+}
+
+.space.small {
+    height: 40px;
+}
+
+.space.big {
+    height: 120px;
+}
+
+
+
+
+/* --------------------------------------------------------------------- */
+/* 3. BUTTONS
+/* --------------------------------------------------------------------- */
+
+.button {
+    display: inline-block;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 28px;
+    background: #70a8da;
+    color: #fff;
+    font-size: 0.8em;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-bottom: 2px solid #4e89be;
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    border-radius: 45px;
+}
+.button:hover {
+    background: #7fb4e3;
+}
+
+
+.button.border {
+    color: #70a8da;
+    background: none;
+    border: 1px solid #70a8da;
+}
+.button.border:hover {
+    color: #fff;
+    background: #70a8da;
+}
+
+
+.button.small {
+    height: 35px;
+    line-height: 35px;
+    padding: 0 22px;
+    font-size: 0.75em;
+}
+
+.button.big {
+    height: 55px;
+    line-height: 55px;
+    padding: 0 34px;
+    font-size: 0.85em;
+}
+
+
+
+
+/* --------------------------------------------------------------------- */
+/* 4. FORM
+/* --------------------------------------------------------------------- */
+
+input, textarea {
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    font-size: 0.8em;
+    color: #595959;
+    background: #fff;
+    border: none;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+input.text, textarea {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+input.text {
+    padding: 12px 15px;
+}
+
+
+input.submit {
+    display: inline-block;
+    margin-top: 15px;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 28px;
+    background: #70a8da;
+    color: #fff;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    border-bottom: 2px solid #4e89be;
+    cursor: pointer;
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    border-radius: 45px;
+    -webkit-transition: all 0.3s;
+    -moz-transition:    all 0.3s;
+    -o-transition:      all 0.3s;
+    transition:         all 0.3s;
+}
+input.submit:hover {
+    background: #7fb4e3;
+}
+
+
+textarea {
+    padding: 15px;
+    height: 150px;
+}
+
+
+
+
+/* --------------------------------------------------------------------- */
+/* 5. ICONS
+/* --------------------------------------------------------------------- */
+
+/* ==== 5.1 ICONS ==== */
+
+.icon {
+    display: inline-block;
+    font-size: 2.2em;
+}
+
+.icon.small {
+    font-size: 1.2em;
+}
+
+.icon.big {
+    font-size: 4em;
+}
+
+
+
+/* ==== 5.2 CIRCLE ICONS ==== */
+
+.circle-icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+    text-align: center;
+    color: #fff;
+    background: #70a8da;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+a.circle-icon:hover {
+    background: #7fb4e3;
+}
+
+
+.circle-icon.border {
+    color: #70a8da;
+    border: 1px solid #70a8da;
+    background: none;
+}
+a.circle-icon.border:hover {
+    color: #fff;
+    background: #70a8da;
+}
+
+
+.circle-icon.white {
+    background: #fff;
+    color: #70a8da;
+}
+a.circle-icon.white:hover {
+    color: #fff;
+    background: #70a8da;
+}
+
+
+.circle-icon.small {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 1em;
+}
+
+.circle-icon.big {
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
+    font-size: 1.8em;
+}
+
+
+
+/* ==== 5.3 FLOAT ICONS ==== */
+
+.float-icon {
+    position: relative;
+    padding-left: 60px;
+}
+
+.float-icon .icon {
+    position: absolute;
+    top: -5px;
+    left: 0;
+}
+
+
+
+
+/* --------------------------------------------------------------------- */
+/* 6. SKILLS
+/* --------------------------------------------------------------------- */
+
+.skill-outer {
+    position: relative;
+    width: 100%;
+    height: 12px;
+    margin: 5px 0 25px 0;
+    background: #ebebeb;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.skill-outer .skill-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background: #70a8da;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.skill-outer .percent {
+    position: absolute;
+    display: none;
+    width: 55px;
+    height: 28px;
+    line-height: 28px;
+    bottom: 25px;
+    right: -22px;
+    font-size: 0.8em;
+    text-align: center;
+    background: #595959;
+    color: #fff;
+}
+
+.skill-outer .percent:after {
+    display: block;
+    content: '';
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    margin-left: -5px;
+    height: 0;
+    width: 0;
+    border-width: 10px;
+    border-style: solid;
+    border-right-width: 0;
+    border-color: #595959;
+    border-bottom-color: transparent !important;
+    border-top-color: transparent !important;
+    border-right-color: transparent !important;
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+
+
+
+/* --------------------------------------------------------------------- */
+/* 7. ACCORDION AND TOGGLE
+/* --------------------------------------------------------------------- */
+
+.accordion .title,
+.toggle .title {
+    display: block;
+    position: relative;
+    margin-bottom: 2px;
+    padding: 12px 20px;
+    background: #fff;
+    color: #3d3d3d;
+    font-weight: 500;
+    font-size: 0.9em;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.accordion .title:hover,
+.toggle .title:hover {
+    color: #70a8da;
+}
+
+.accordion .title i,
+.toggle .title i {
+    position: absolute;
+    top: 18px;
+    right: 20px;
+}
+
+.accordion .title .fa-minus,
+.toggle .title .fa-minus {
+    display: none;
+}
+
+.accordion .content,
+.toggle .content {
+    display: none;
+    margin-bottom: 2px;
+    padding: 25px 20px;
+    background: #fff;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.accordion p:last-child,
+.toggle p:last-child {
+    margin-bottom: 0;
+}
+
+
+
+
+/* --------------------------------------------------------------------- */
+/* 8. TABS
+/* --------------------------------------------------------------------- */
+
+/* ==== 8.1 TAB NAVI  ==== */
+
+.tab-navi {
+    padding-right: 4px;
+}
+
+.tab-navi a {
+    display: block;
+    margin-bottom: 4px;
+    padding: 15px 30px;
+    color: #595959;
+    font-size: 0.9em;
+    background: #fff;
+    border-left: 3px solid #fff;
+    font-weight: 500;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.tab-navi a:hover {
+    color: #70a8da;
+    border-left: 3px solid #70a8da;
+}
+
+.tab-navi a.active {
+    border-left: 3px solid #70a8da;
+    color: #70a8da;
+    width: 102%;
+}
+
+
+
+/* ==== 8.2 TAB NAVI HORIZONTAL  ==== */
+
+.tab-navi.horizontal li {
+    display: inline-block;
+}
+
+.tab-navi.horizontal a {
+    border-top: 3px solid #fff;
+    border-left: none;
+}
+
+.tab-navi.horizontal a:hover {
+    border-top: 3px solid #70a8da;
+    border-left: none;
+}
+
+.tab-navi.horizontal a.active {
+    border-top: 3px solid #70a8da;
+    border-left: none;
+    width: auto;
+    padding: 15px 30px 25px 30px;
+    margin-bottom: -10px;
+}
+
+
+
+/* ==== 8.3 TAB CONTENT  ==== */
+
+.tab-content-container {
+    margin-bottom: 30px;
+    padding: 30px;
+    background: #fff;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.tab-content  p:last-child {
+    margin-bottom: 0;
+}
+
+.tab-content {
+    display: none;
+}
+
+
+
+
+/* --------------------------------------------------------------------- */
+/* 9. ALERT BOX
+/* --------------------------------------------------------------------- */
+
+.alert-box {
+    position: relative;
+    margin-bottom: 10px;
+    padding: 15px 50px 15px 20px;
+    font-size: 0.85em;
+    font-weight: 400;
+    text-align: left;
+    color: #9f9f9f;
+    background: #f2f2f2;
+    border: 1px solid #e2e2e2;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.alert-box a {
+    color: #9f9f9f;
+}
+
+.alert-box i {
+    width: 20px;
+}
+
+.alert-box .close {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 2px;
+    padding: 10px;
+    font-size: 1.2em;
+}
+.alert-box .close:hover {
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+
+.alert-box.error, .alert-box.error a {
+    color: #a02119;
+}
+.alert-box.error {
+    border-color: #eed5d5;
+    background: #f4e2e2;
+}
+
+.alert-box.warning, .alert-box.warning a {
+    color: #c79d0c;
+}
+.alert-box.warning {
+    border-color: #f4f0d4;
+    background: #fbf9e5;
+}
+
+.alert-box.success, .alert-box.success a {
+    color: #3a7d3a;
+}
+.alert-box.success {
+    border-color: #d6edcd;
+    background: #e5f3e0;
+}
+
+
+
+
+/* --------------------------------------------------------------------- */
+/* 10. COMMENT CAROUSEL
+/* --------------------------------------------------------------------- */
+
+.comment-carousel-container {
+    width: 100%;
+    text-align: center;
+    background: #fff;
+}
+
+.comment-carousel-container i {
+    font-size: 0.8em;
+}
+
+.comment-carousel-container .comment {
+    max-width: 820px;
+    padding: 0 25px;
+    margin: 0 auto 20px auto;
+    font-weight: 300;
+}
+
+.comment-carousel-container .name {
+    font-size: 0.8em;
+}
+
+.comment-carousel-container .owl-controls{
+    margin-top: 20px;
+}
+
+
+
+
+/* --------------------------------------------------------------------- */
+/* 11. CLIENT CAROUSEL
+/* --------------------------------------------------------------------- */
+
+.client-carousel .owl-controls{
+    margin-top: 15px;
+}
+
+.client-carousel .item {
+    margin: 0 25px;
+}
+
+.client-carousel .item img {
+    max-width: 100%;
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+    -webkit-transition: all 0.3s;
+    -moz-transition:    all 0.3s;
+    -o-transition:      all 0.3s;
+    transition:         all 0.3s;
+    filter: url('grayscale.svg#greyscale');
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+}
+
+.client-carousel .item:hover img {
+    filter: alpha(opacity=100);
+    opacity: 1;
+    filter: none;
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+}
+
+
+
+
+/* --------------------------------------------------------------------- */
+/* 12. COUNTER
+/* --------------------------------------------------------------------- */
+
+.counter:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.counter li {
+    position: relative;
+    float: left;
+    width: 20%;
+    padding: 50px 0;
+    color: #fff;
+    background: #70a8da;
+    text-align: center;
+    line-height: 1.3;
+}
+
+.counter li:nth-child(2n) {
+    background: #7fb4e3;
+}
+
+.counter .icon {
+    margin-bottom: 5px;
+}
+
+.counter .number {
+    margin-bottom: 5px;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.counter .description {
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+
+
+
+/* --------------------------------------------------------------------- */
+/* 13. GOOGLE MAP
+/* --------------------------------------------------------------------- */
+
+#googlemap {
+    width: 100%;
+    height: 400px;
+}
+
+div.map-popup {
+    position: relative;
+    padding: 10px;
+}
+
+div.map-popup h2 {
+    margin-bottom: 5px;
+}
+
+div.map-popup p {
+    font-size: 1em;
+}
+
+
+
+
+/* --------------------------------------------------------------------- */
+/* 14. TIMELINE
+/* --------------------------------------------------------------------- */
+
+/* ==== 14.1 WRAPPER / GRID ==== */
+
+.timeline-container {
+    color: #fff;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-image: url(../images/about/timeline-background.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.timeline {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    -ms-touch-action: pan-y;
+    cursor: url(../images/layout/openhand.ico) 4 4, move;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.timeline.grabbing {
+    cursor: url(../images/layout/closedhand.ico) 4 4, move;
+}
+
+
+.timeline-grid {
+    position: absolute;
+    bottom: 15px;
+    right: 0;
+    padding: 0 60px;
+    border-bottom: 2px solid #595959;
+}
+
+.timeline-grid li {
+    position: relative;
+    margin: 0 15px;
+    padding-bottom: 40px;
+    width: 400px;
+    float: right;
+}
+
+.timeline-grid li:after {
+    display: block;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin: 0 0 -9px -10px;
+    width: 16px;
+    height: 16px;
+    background: #595959;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.timeline-grid:after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+
+
+/* ==== 14.2 INNER ==== */
+
+.timeline-grid li .inner {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    padding: 25px;
+    background: rgba(255,255,255,0.8);
+    color: #595959;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.timeline-grid li .inner:after {
+    display: block;
+    content: '';
+    position: absolute;
+    bottom: -24px;
+    left: 50%;
+    margin-left: -8px;
+    height: 0;
+    width: 0;
+    border-width: 16px;
+    border-style: solid;
+    border-right-width: 0;
+    border-color: rgba(255,255,255,0.8);
+    border-bottom-color: transparent !important;
+    border-top-color: transparent !important;
+    border-right-color: transparent !important;
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.timeline-grid li .inner .date {
+    display: block;
+    text-transform: uppercase;
+    line-height: 1;
+    font-size: 0.85em;
+}
+
+.timeline-grid li .inner p:last-child {
+    margin-bottom: 0;
+}
+
+
+
+/* ==== 14.3 YEAR ==== */
+
+.timeline-grid li.date {
+    width: 60px;
+    margin: 0;
+}
+
+.timeline-grid li.date:after {
+    display: none;
+}
+
+.timeline-grid li.date .year {
+    display: block;
+    position: absolute;
+    bottom: -19px;
+    left: -10px;
+    width: 80px;
+    height: 40px;
+    line-height: 38px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.2em;
+    background: #595959;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+}
+
+
+
+/* ==== 14.4 HOVER ==== */
+
+.timeline-grid li:after {
+    -webkit-transition: all 0.3s;
+    -moz-transition:    all 0.3s;
+    -o-transition:      all 0.3s;
+    transition:         all 0.3s;
+}
+
+.timeline-grid li:hover:after {
+    background: #70a8da;
+    transform:scale(1.4);
+    -moz-transform:scale(1.4);
+    -webkit-transform:scale(1.4);
+}

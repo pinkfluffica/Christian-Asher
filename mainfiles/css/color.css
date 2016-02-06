@@ -1,0 +1,214 @@
+
+/* --------------------------------------------------------------------- */
+/* 1. FONT COLORS
+/* --------------------------------------------------------------------- */
+
+body,
+#open-navi,
+#main-navigation a,
+#navigation-container .bottom-container,
+#portfolio-controls a,
+input,
+textarea,
+.tab-navi a,
+.timeline-grid li .inner,
+#blog-controls a {
+    color: #595959;
+}
+
+
+#open-navi:hover,
+#open-navi.active,
+#main-navigation a:hover,
+#main-navigation a.active,
+#portfolio-controls a:hover,
+.team .circle-icon:hover,
+a,
+.button.border,
+.circle-icon.border,
+.circle-icon.white,
+.accordion .title:hover,
+.toggle .title:hover,
+.tab-navi a:hover,
+.tab-navi a.active,
+#blog-controls a:hover {
+    color: #70a8da;
+}
+
+
+.section-headline,
+#portfolio-grid .layer .plus,
+#portfolio-grid .layer .text,
+#portfolio-load-more,
+.team .team-member .layer .text,
+.button,
+.button.border:hover,
+input.submit,
+.circle-icon,
+a.circle-icon.border:hover,
+a.circle-icon.white:hover,
+.skill-outer .percent,
+.counter li,
+.timeline-container,
+#blog-grid .layer .plus,
+#blog-grid .layer .button,
+#blog-load-more {
+    color: #fff;
+}
+
+
+.footer-content .text {
+    color: rgba(0,0,0,0.5);
+}
+
+
+
+
+/* --------------------------------------------------------------------- */
+/* 2. BACKGROUND COLORS
+/* --------------------------------------------------------------------- */
+
+body,
+#page-preloader,
+#pagewrapper {
+    background-color: #f7f7f7;
+}
+
+
+#page-header,
+#portfolio-grid .layer h3:after,
+#portfolio-controls a,
+.team .circle-icon:hover,
+.team .team-member .layer h3:after,
+input,
+textarea,
+.circle-icon.white,
+.accordion .title,
+.toggle .title,
+.accordion .content,
+.toggle .content,
+.tab-navi a,
+.tab-content-container,
+.comment-carousel-container,
+#blog-grid li,
+#blog-controls a {
+    background-color: #fff;
+}
+
+
+#navigation-container,
+.portfolio-carousel,
+.detail-carousel,
+#page-footer,
+.skill-outer {
+    background-color: #ebebeb;
+}
+
+
+#main-navigation li:after,
+#main-navigation li:first-child:before {
+    background-color: #d4d4d4;
+}
+
+
+#portfolio-load-more,
+h1.underline:after,
+h2.underline:after,
+h3.underline:after,
+h4.underline:after,
+h5.underline:after,
+h6.underline:after,
+.button,
+.button.border:hover,
+input.submit,
+.circle-icon,
+a.circle-icon.border:hover,
+a.circle-icon.white:hover,
+.skill-outer .skill-inner,
+.counter li,
+.timeline-grid li:hover:after,
+#blog-load-more {
+    background-color: #70a8da;
+}
+
+
+#portfolio-load-more:hover,
+.button:hover,
+input.submit:hover,
+a.circle-icon:hover,
+.counter li:nth-child(2n),
+#blog-load-more:hover {
+    background-color: #7fb4e3;
+}
+
+
+#portfolio-grid .layer,
+.team .team-member .layer,
+#blog-grid .layer {
+    background-color: rgba(112,168,218,0.9);
+}
+
+
+#portfolio-grid .layer .plus,
+.skill-outer .percent,
+.timeline-grid li:after,
+.timeline-grid li.date .year,
+#blog-grid .layer .plus {
+    background-color: #595959;
+}
+
+
+
+
+/* --------------------------------------------------------------------- */
+/* 3. BORDER COLORS
+/* --------------------------------------------------------------------- */
+
+.detail-carousel .owl-controls .owl-page.active span,
+.portfolio-carousel .owl-controls .owl-page.active span,
+.team .circle-icon,
+.tab-navi a,
+.tab-navi.horizontal a,
+#blog-grid .layer .button,
+.blog-carousel .owl-controls .owl-page.active span {
+    border-color: #fff;
+}
+
+
+.button,
+input.submit {
+    border-color: #4e89be;
+}
+
+.button.border,
+.circle-icon.border,
+.tab-navi a:hover,
+.tab-navi a.active,
+.tab-navi.horizontal a:hover,
+.tab-navi.horizontal a.active {
+    border-color: #70a8da;
+}
+
+
+.skill-outer .percent:after,
+.timeline-grid {
+    border-color: #595959;
+}
+
+
+
+
+/* --------------------------------------------------------------------- */
+/* 4. SELECTION COLOR
+/* --------------------------------------------------------------------- */
+
+::selection {
+    background: #70a8da;
+    color: #fff;
+}
+::-moz-selection {
+    background: #70a8da;
+    color: #fff;
+}
+
+

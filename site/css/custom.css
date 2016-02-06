@@ -1,0 +1,13 @@
+
+/* --------------------------------------------------------------------- */
+/* DO YOUR CSS CHANGES HERE TO SIMPLIFY UPDATES
+/* --------------------------------------------------------------------- */
+
+.section-headline.contact {
+    background-image: url('../images/contact/contact1.jpg');
+}
+
+.section-headline.about {
+    background-image: url('../images/about/about1.jpg');
+    background-position: center center;
+}
