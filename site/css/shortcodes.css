@@ -738,10 +738,10 @@ a.circle-icon.white:hover {
     line-height: 1.3;
 }
 
-.counter li:nth-child(2n) {
+/*.counter li:nth-child(2n) {
     background: #7fb4e3;
 }
-
+*/
 .counter .icon {
     margin-bottom: 5px;
 }

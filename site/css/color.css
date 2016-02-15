@@ -32,7 +32,8 @@ a,
 .tab-navi a:hover,
 .tab-navi a.active,
 #blog-controls a:hover {
-    color: #70a8da;
+    /*color: #70a8da;*/
+    color: #cc0000;
 }
 
 
@@ -128,7 +129,8 @@ a.circle-icon.white:hover,
 .counter li,
 .timeline-grid li:hover:after,
 #blog-load-more {
-    background-color: #70a8da;
+    /*background-color: #70a8da;*/
+    background-color: #cc0000;
 }
 
 
@@ -138,14 +140,16 @@ input.submit:hover,
 a.circle-icon:hover,
 .counter li:nth-child(2n),
 #blog-load-more:hover {
-    background-color: #7fb4e3;
+    /*background-color: #7fb4e3;*/
+    background-color: #cc0000;
 }
 
 
 #portfolio-grid .layer,
 .team .team-member .layer,
 #blog-grid .layer {
-    background-color: rgba(112,168,218,0.9);
+    /*background-color: rgba(112,168,218,0.9);*/
+    background-color: rgba(204, 0, 0, 0.8);
 }
 
 
@@ -186,7 +190,8 @@ input.submit {
 .tab-navi a.active,
 .tab-navi.horizontal a:hover,
 .tab-navi.horizontal a.active {
-    border-color: #70a8da;
+    /*border-color: #70a8da;*/
+    border-color: #cc0000;
 }
 
 
@@ -203,11 +208,13 @@ input.submit {
 /* --------------------------------------------------------------------- */
 
 ::selection {
-    background: #70a8da;
+    /*background: #70a8da;*/
+    background: #cc0000;
     color: #fff;
 }
 ::-moz-selection {
-    background: #70a8da;
+    /*background: #70a8da;*/
+    background: #cc0000;
     color: #fff;
 }
 
